@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           selectedIndex: currentIndex,
           onDestinationSelected: changeTab,
           destinations: const [
-            NavigationDestination(icon: Icon(Icons.newspaper), label: 'News'),
+            NavigationDestination(icon: Icon(Icons.newspaper), label: 'NEWS'),
             NavigationDestination(icon: Icon(Icons.directions_car), label: 'Cars'),
             NavigationDestination(icon: Icon(Icons.air), label: 'Layout')
           ]),
